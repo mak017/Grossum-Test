@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* line 5, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+
+/* line 103, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/Programs/WIN_Scout-App_2.12.12/Scout-App/bower_components/compass-mixins/lib/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 33, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 36, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+body {
+  background: #fff;
+  font: 300 16px/1.2em Montserrat;
+}
+
+/* line 40, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+h2 {
+  font-size: 2.2rem;
+  line-height: 1;
+  text-align: center;
+}
+
+/* line 45, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+h3 {
+  margin-bottom: 22px;
+  color: #fd8300;
+  font-size: 1.41rem;
+  font-weight: 500;
+}
+
+/* line 51, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+p {
+  margin-bottom: 25px;
+  font-size: 1.13rem;
+}
+
+/* line 55, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+a {
+  color: inherit;
+}
+
+/* line 57, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 60, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+a:visited {
+  color: #225582;
+}
+
+/* line 64, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+label {
+  display: block;
+  margin-bottom: 11px;
+  font-size: 1.13rem;
+}
+
+/* line 69, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.wrap {
+  max-width: 920px;
+  margin: auto;
+}
+
+/* line 73, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.bold {
+  font-weight: 500;
+}
+
+@media all and (max-width: 990px) {
+  /* line 77, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  p, h3 {
+    margin-bottom: 2.57vw;
+  }
+  /* line 80, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  label {
+    margin-bottom: 1.54vw;
+  }
+}
+
+/* line 86, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.main-header {
+  max-width: 1920px;
+  margin: auto;
+  background: url(../images/header-background.png) 50% 50%/cover no-repeat;
+  color: #fff;
+}
+
+/* line 91, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.main-header .wrap {
+  padding-top: 57px;
+  padding-bottom: 27px;
+}
+
+/* line 95, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.main-header h2 {
+  margin-bottom: 100px;
+}
+
+@media all and (max-width: 990px) {
+  /* line 99, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .main-header .wrap {
+    padding-top: 6.2vw;
+    padding-bottom: 2.93vw;
+  }
+  /* line 103, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .main-header h2 {
+    margin-bottom: 10.87vw;
+  }
+}
+
+/* line 108, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.logo {
+  width: 220px;
+  height: 69px;
+  margin: auto;
+  margin-bottom: 71px;
+  background: #57788d;
+  border: 2px solid #6185a8;
+}
+
+/* line 115, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.logo img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/* line 122, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.book {
+  position: relative;
+  left: -27px;
+  width: calc(100% + 54px);
+  min-height: 400px;
+  padding: 27px;
+  background: rgba(47, 45, 65, 0.7);
+}
+
+/* line 129, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.book--cover {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 135, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.book--about {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 31.25%;
+  float: left;
+  margin-right: 40.625%;
+}
+
+/* line 139, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.book--get {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 28.125%;
+  float: left;
+}
+
+/* line 141, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.book--get h3 {
+  text-align: right;
+}
+
+@media all and (max-width: 990px) {
+  /* line 122, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book {
+    overflow: hidden;
+    *zoom: 1;
+    left: 0;
+    width: auto;
+    padding: 2.77vw;
+  }
+}
+
+@media all and (max-width: 885px) {
+  /* line 152, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--cover {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40.625%;
+    float: left;
+    position: static;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  /* line 156, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--cover img {
+    width: 100%;
+  }
+  /* line 160, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--about {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 31.25%;
+    float: left;
+    margin-right: 0;
+    padding: 0 1.75vw;
+  }
+  /* line 165, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--get {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 28.125%;
+    float: left;
+  }
+}
+
+@media all and (max-width: 530px) {
+  /* line 170, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--cover {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+  /* line 173, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--about {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+  /* line 176, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--get {
+    float: left;
+    width: 100%;
+  }
+  /* line 180, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book h3 {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 400px) {
+  /* line 185, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--cover, .book--about, .book--get {
+    float: none;
+    width: 100%;
+  }
+  /* line 191, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .book--about {
+    padding-top: 5vw;
+  }
+}
+
+/* line 197, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.form--entry:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+
+/* line 200, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.form input {
+  border: 0;
+  border-radius: 2px;
+  padding: 13.5px 5px;
+  font-family: inherit;
+  width: 100%;
+}
+
+/* line 203, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.form input[type='submit'] {
+  border: 0;
+  border-radius: 2px;
+  padding: 13.5px 5px;
+  font-family: inherit;
+  background: #fd8300;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 24px;
+  font-size: 1.1rem;
+}
+
+@media all and (max-width: 990px) {
+  /* line 210, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .form--entry:not(:last-of-type) {
+    margin-bottom: 2.77vw;
+  }
+  /* line 213, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .form input[type='submit'] {
+    margin-top: 2.46vw;
+  }
+}
+
+/* line 220, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.company {
+  margin-bottom: -27px;
+  padding-top: 52px;
+  color: #225582;
+}
+
+/* line 224, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.company .wrap {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 227, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.company h2 {
+  margin-bottom: 50px;
+}
+
+/* line 230, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.company h3 {
+  font-size: 1.7rem;
+}
+
+@media all and (max-width: 990px) {
+  /* line 220, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .company {
+    padding: 6.3vw 2.77vw 0;
+  }
+  /* line 235, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .company h2 {
+    margin-bottom: 5.43vw;
+  }
+}
+
+/* line 240, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.features {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 242, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.features .column {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 28.57143%;
+  float: left;
+}
+
+/* line 244, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.features .column:not(:last-of-type) {
+  margin-right: 7.14286%;
+}
+
+/* line 247, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.features .column:nth-of-type(2) {
+  text-align: center;
+}
+
+/* line 250, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.features .column:nth-of-type(3) {
+  text-align: right;
+}
+
+@media all and (max-width: 530px) {
+  /* line 240, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features {
+    margin-bottom: 4.11vw;
+  }
+  /* line 256, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features div.column {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 42.85714%;
+    float: left;
+    margin-right: 0;
+  }
+  /* line 259, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features div.column:nth-of-type(1) {
+    margin-right: 7.14286%;
+  }
+  /* line 262, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features div.column:nth-of-type(2) {
+    text-align: right;
+  }
+  /* line 265, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features div.column:nth-of-type(3) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 400px) {
+  /* line 272, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .features div.column {
+    float: none;
+    width: 100%;
+    text-align: center !important;
+  }
+}
+
+/* line 279, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.btn-read {
+  border: 0;
+  border-radius: 2px;
+  padding: 13.5px 5px;
+  font-family: inherit;
+  background: #fd8300;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 42.85714%;
+  float: left;
+  position: relative;
+  left: 50%;
+  z-index: 5;
+  display: block;
+  min-width: 205px;
+  padding: 16px 5px;
+  font-size: 1.4rem;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 293, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.footer {
+  padding: 60px 0 50px 0;
+  background: rgba(74, 34, 1, 0.65);
+  color: #fff;
+  text-align: center;
+}
+
+/* line 298, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.footer .questions {
+  margin-bottom: 77px;
+  font-size: 1.03rem;
+}
+
+@media all and (max-width: 990px) {
+  /* line 293, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .footer {
+    padding: 11vw 0 5.65vw 0;
+  }
+  /* line 304, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .footer .questions {
+    margin-bottom: 7.91vw;
+  }
+}
+
+/* line 309, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.scl-media {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 39.28571%;
+  float: left;
+  float: none;
+  margin: auto;
+  margin-bottom: 41px;
+}
+
+/* line 317, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.scl-media a {
+  position: relative;
+  width: 162px;
+  padding: 17px 0 13px 17px;
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+/* line 323, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.scl-media a i {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 1.3rem;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media all and (max-width: 840px) {
+  /* line 309, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .scl-media {
+    margin-bottom: 4.52vw;
+  }
+  /* line 333, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+  .scl-media .fb {
+    margin-bottom: 2.98vw;
+  }
+}
+
+/* line 338, C:/Users/mak/Documents/WEB-Dev/grossum-test/scss/style.scss */
+.copyright {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
+/*# sourceMappingURL=../css/style.map */
